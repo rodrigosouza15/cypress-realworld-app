@@ -1,3 +1,5 @@
+import userData from '../../fixtures/userData.json'
+
 const { Password } = require("@mui/icons-material")
 
 describe('Login com sucesso', () => {
@@ -6,22 +8,22 @@ describe('Login com sucesso', () => {
     usernameField: "[name='username']",
     PasswordField: "[name='password']",
     loginButton: "[type='submit']",
-    sectionTitleTopbar: "[data-test='main']",
-    wrognCredentialAlert: "[data-test='signin-error']"
+    transactionList: "[data-test='transaction-list']",
+    wrongCredentialAlert: "[data-test='signin-error']"
   }
 
   it('Login com usuário válido', () => {
     cy.visit('http://localhost:3000/')
-    cy.get(selectorlist.usernameField).type('Heath93')
-    cy.get(selectorlist.PasswordField).type('s3cret')
+    cy.get(selectorlist.usernameField).type(userData.userSuccess.username)
+    cy.get(selectorlist.PasswordField).type(userData.userSuccess.password)
     cy.get(selectorlist.loginButton).click()
-    cy.get(selectorlist.sectionTitleTopbar).contains('Public')
+    cy.get(selectorlist.transactionList)
   })
-  it.only('Tentativa de login com usuário inválido', () => {
+  it('Tentativa de login com usuário inválido', () => {
     cy.visit('http://localhost:3000/')
-    cy.get(selectorlist.usernameField).type('timao')
-    cy.get(selectorlist.PasswordField).type('s3cret')
+    cy.get(selectorlist.usernameField).type(userData.userFail.username)
+    cy.get(selectorlist.PasswordField).type(userData.userFail.password)
     cy.get(selectorlist.loginButton).click()
-    cy.get(selectorlist.wrognCredentialAlert)
+    cy.get(selectorlist.wrongCredentialAlert)
   })
 })
