@@ -4,7 +4,7 @@
         "password": "s3cret"
     },
     "userFail": {
-        "password": "s3cret",
-        "username": "test"
+        "username": "test",
+        "password": "s3cret"
     }
 }
