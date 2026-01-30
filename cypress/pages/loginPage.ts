@@ -5,7 +5,9 @@ class LoginPage {
             usernameField: "[name='username']",
             passwordField: "[name='password']",
             loginButton: "[type='submit']",
-            wrongCredentialAlert: "[data-test='signin-error']"
+            wrongCredentialAlert: "[data-test='signin-error']",
+            signUpButton: "[data-test='signup']",
+            loginGrid: ".SignInForm-paper"
         }
 
         return selectors
@@ -23,6 +25,15 @@ class LoginPage {
 
     checkAccessInvalid() {
         cy.get(this.selectorList().wrongCredentialAlert)
+    }
+
+    accessUserRegistration() {
+        cy.get(this.selectorList().signUpButton).click()
+    }
+
+    validateLoginScreen() {
+        cy.get(this.selectorList().loginGrid)
+
     }
 }
 

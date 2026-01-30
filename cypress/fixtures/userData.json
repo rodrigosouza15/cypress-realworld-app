@@ -1,10 +1,19 @@
 {
+  "login": {
     "userSuccess": {
-        "username": "Heath93",
-        "password": "s3cret"
+      "username": "Heath93",
+      "password": "s3cret"
     },
     "userFail": {
-        "username": "test",
-        "password": "s3cret"
+      "username": "test",
+      "password": "s3cret"
     }
+  },
+  "register": {
+    "firstname": "Rodrigo",
+    "lastname": "Silva",
+    "username": "rodsccp",
+    "password": "123456789",
+    "confirmpassword": "123456789"
+  }
 }
