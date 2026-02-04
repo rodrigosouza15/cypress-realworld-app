@@ -1,7 +1,24 @@
-# Cypress E2E Portfolio 🚀
+# 🔷 Real World App
 
-Projeto de testes automatizados E2E usando Cypress + TypeScript,
-aplicando boas práticas de QA.
+Este projeto foi desenvolvido como parte do curso Guardião da Qualidade da LumeStack, com o objetivo de aplicar na prática os conceitos de automação de testes utilizando o Cypress.io em um ambiente realista de aplicação web.
+
+## 💡 Sobre o Projeto
+O Real World App (RWA) é um aplicativo criado pela equipe do Cypress para demonstrar o uso de métodos, padrões e fluxos reais de testes.
+Inspirado no app Venmo, ele permite que usuários:
+
+- Criem uma conta;
+- Adicionem uma conta bancária;
+- Enviem e recebam dinheiro entre amigos.
+  
+Este projeto utiliza o RWA como base para estudos e práticas do curso Guardião da Qualidade, explorando desde a criação de casos de teste manuais até sua automação completa com Cypress.
+
+🔗 Repositório oficial do RWA: [cypress-io/cypress-realworld-app](https://github.com/cypress-io/cypress-realworld-app)
+
+## 🧩 Objetivo
+Aplicar os conhecimentos adquiridos no curso, desenvolvendo casos de teste e scripts automatizados para as principais funcionalidades do RWA:
+
+- Login
+- Registro de Usuário
 
 ## 🧪 Tecnologias
 - Cypress
@@ -16,5 +33,5 @@ aplicando boas práticas de QA.
 - cypress/support → comandos customizados
 
 ## ▶️ Como executar
-yarn install
-yarn cypress open
+- yarn install
+- yarn cypress open
