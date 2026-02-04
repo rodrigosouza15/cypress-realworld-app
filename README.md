@@ -28,9 +28,8 @@ Aplicar os conhecimentos adquiridos no curso, desenvolvendo casos de teste e scr
 - Custom Commands
 
 ## 📁 Estrutura
-- cypress/e2e → cenários de teste
+- cypress/tests/e2e → cenários de teste
 - cypress/fixtures → massa de dados
-- cypress/support → comandos customizados
 
 ## ▶️ Como executar
 - yarn install
