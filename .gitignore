@@ -52,3 +52,48 @@ amplifytools.xcconfig
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# IDE / Editor
+.vscode/
+
+# Ambiente
+.env
+
+# Dependências / build
+node_modules/
+dist/
+coverage/
+
+# Infra / CI
+.circleci/
+.github/
+.husky/
+codecov.yml
+renovate.json
+
+# Backend / cloud (não faz parte do portfólio)
+backend/
+amplify/
+
+# Frontend / app
+public/
+src/
+index.html
+vite.config.ts
+vite.cypress.config.ts
+
+# Scripts auxiliares
+scripts/
+patches/
+sandbox.config.json
+
+# Versionamento / ambiente
+.node-version
+.nvmrc
+.yarnrc
+.prettierignore
+.prettierrc
+
+# Extras que não agregam ao portfólio
+.all-contributorsrc
+CODE_OF_CONDUCT.md
