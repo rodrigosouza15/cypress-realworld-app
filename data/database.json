@@ -76,103 +76,70 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "wso7H1HXE",
-      "uuid": "6f29e0c5-0a7c-4326-8c62-d7e0f6162db2",
-      "firstName": "a",
-      "lastName": "a",
-      "username": "a",
-      "password": "$2a$10$EczGtwvfDCXbFFe/6sOY7OWeehrvtwo4VCzxenR0Je10s0iSpB.rW",
-      "balance": 0,
-      "createdAt": "2026-01-30T01:05:42.163Z",
-      "modifiedAt": "2026-01-30T01:05:42.163Z"
-    },
-    {
-      "id": "l17QSZxH_",
-      "uuid": "a34cceea-177c-4833-ad3c-9c75596a0b13",
-      "firstName": "aaaaaaaa",
-      "lastName": "bbbbbbbb",
-      "username": "aaaaaaaaaaaa",
-      "password": "$2a$10$r8d44aOkmdn1AlKmmdgt2.Z6.32VEBFddPbJEFoO/FvLO88cJJzJ.",
-      "balance": 0,
-      "createdAt": "2026-01-30T01:06:00.876Z",
-      "modifiedAt": "2026-01-30T01:06:00.876Z"
-    },
-    {
-      "id": "oKMMzw-Wr",
-      "uuid": "924df429-e407-475f-b434-95cdd59a596c",
-      "firstName": "aaaaaa",
-      "lastName": "aaaaaaaaa",
-      "username": "aaaaaaaaa",
-      "password": "$2a$10$RzzWIOMLr3gSurVRXs7ojeIEBHtYWCnXM529NsJTkgCoj0u3Gw10e",
-      "balance": 0,
-      "createdAt": "2026-01-30T01:06:18.628Z",
-      "modifiedAt": "2026-01-30T01:06:18.628Z"
-    },
-    {
-      "id": "KafHJ9_Zz",
-      "uuid": "88abc736-5ea8-410f-8d0a-30d4e17efe7d",
-      "firstName": "teste",
-      "lastName": "teste",
-      "username": "teste",
-      "password": "$2a$10$dRL1sXmqOLfcFuUXEmflSOfVMf4w.I2FCjE/G9jtE0pPQfCK.4p2i",
-      "balance": 0,
-      "createdAt": "2026-01-30T01:06:37.102Z",
-      "modifiedAt": "2026-01-30T01:06:37.102Z"
-    },
-    {
-      "id": "DGuq9Zjcp",
-      "uuid": "bcea8a65-b1e4-4453-b04d-9d6f4afc5114",
+      "id": "HNWZzr0Pg",
+      "uuid": "2c5678b6-6d86-46e5-beae-a2233168d9ec",
       "firstName": "Rodrigo",
       "lastName": "Silva",
       "username": "rodsccp",
-      "password": "$2a$10$e3VOcOJbo/wjsPJW/nQ2seWBCl1qWPTjASVkhX47S9gRrpVqdaBsC",
+      "password": "$2a$10$HMvemvlLkP6YH8T29Dk0Fu1sobzep75iSacssBHD7Jy7tYAtO9q5O",
       "balance": 0,
-      "createdAt": "2026-01-30T01:06:48.745Z",
-      "modifiedAt": "2026-01-30T01:06:48.745Z"
+      "createdAt": "2026-02-03T22:56:11.797Z",
+      "modifiedAt": "2026-02-03T22:56:11.797Z"
     },
     {
-      "id": "RrXzgS3lZ",
-      "uuid": "3f137dcb-cb1e-46cf-ab5e-2d92681ecb62",
+      "id": "K9hvrLc7M",
+      "uuid": "d9325d34-8905-4feb-b1d3-92ae680184e8",
       "firstName": "Rodrigo",
       "lastName": "Silva",
       "username": "rodsccp",
-      "password": "$2a$10$K2hYgSs8L8PCW3A.ni4HkeJYVY5.2MiBxgiJSem.M0EKSIRPZLU/u",
+      "password": "$2a$10$JtImboHNPysDy7BUqFnNsOHzPKDt2K1kAi9zbt4MQnHyV7J9sBh3u",
       "balance": 0,
-      "createdAt": "2026-01-30T01:22:53.615Z",
-      "modifiedAt": "2026-01-30T01:22:53.615Z"
+      "createdAt": "2026-02-03T23:27:20.236Z",
+      "modifiedAt": "2026-02-03T23:27:20.236Z"
     },
     {
-      "id": "EbYA43lRw",
-      "uuid": "4e6f4c5a-e3d1-4fe0-bf6d-c9f8ca5b7d94",
+      "id": "v3c3XL9yp",
+      "uuid": "18e6ef5b-08c9-4753-a54a-81380c97e8d6",
       "firstName": "Rodrigo",
       "lastName": "Silva",
       "username": "rodsccp",
-      "password": "$2a$10$fYoaGK/iumFRIs1mGCEr/enJvSPLwwZBkuwL1i3PTCVwUjznxdKHu",
+      "password": "$2a$10$UrMrHfw5EWiJkxsvANZV3ue8AReD2pUsU8YZU0suOPaSuu4ND9oTe",
       "balance": 0,
-      "createdAt": "2026-01-30T01:30:20.944Z",
-      "modifiedAt": "2026-01-30T01:30:20.944Z"
+      "createdAt": "2026-02-03T23:40:07.807Z",
+      "modifiedAt": "2026-02-03T23:40:07.807Z"
     },
     {
-      "id": "FREqFmil-",
-      "uuid": "84896b99-dae1-478f-8493-6e55a19dfc10",
+      "id": "YZSh2xcuz",
+      "uuid": "5ee5575c-540f-4b0c-af4d-2e9377270258",
       "firstName": "Rodrigo",
       "lastName": "Silva",
       "username": "rodsccp",
-      "password": "$2a$10$24vqdJQ7qTkOLmkFkTaqY.8..lXYm/OEOUqVqhJxSSOGFqKlUMQJa",
+      "password": "$2a$10$7LW6q7VXPmzYQM0Bi5z2..7sbJikNvfRgaBzo6cUprtRKXoWxYpmC",
       "balance": 0,
-      "createdAt": "2026-01-30T01:30:43.800Z",
-      "modifiedAt": "2026-01-30T01:30:43.800Z"
+      "createdAt": "2026-02-03T23:41:25.175Z",
+      "modifiedAt": "2026-02-03T23:41:25.175Z"
     },
     {
-      "id": "Cdum1roqG",
-      "uuid": "34628c74-08ca-429d-a0a1-9628c4a9b2a5",
+      "id": "X4swPakSR",
+      "uuid": "e13affb8-1b5a-4179-983b-ef2452f53ec3",
       "firstName": "Rodrigo",
       "lastName": "Silva",
       "username": "rodsccp",
-      "password": "$2a$10$NIwe9BPLanHkza0SyeKCIOps9tv7CHBwkLf0IFpjkb2.VJsaNbUX.",
+      "password": "$2a$10$KtPkNRqF7oDMl8tozHorx.bAU1Jtv0ylMzfNNtX7IZmYtIR/oTimO",
       "balance": 0,
-      "createdAt": "2026-01-30T01:32:20.021Z",
-      "modifiedAt": "2026-01-30T01:32:20.021Z"
+      "createdAt": "2026-02-03T23:41:29.690Z",
+      "modifiedAt": "2026-02-03T23:41:29.690Z"
+    },
+    {
+      "id": "65VZt8dpu",
+      "uuid": "24a103f3-fee5-4c2f-bb1e-f8f6e7ad867e",
+      "firstName": "Rodrigo",
+      "lastName": "Silva",
+      "username": "rodsccp",
+      "password": "$2a$10$PGY83qjGOg64QwyUV0SihumFNz/vYIUdQlwCi5VJ3w8.tq51VxD9C",
+      "balance": 0,
+      "createdAt": "2026-02-04T00:21:16.739Z",
+      "modifiedAt": "2026-02-04T00:21:16.739Z"
     }
   ],
   "contacts": [
@@ -352,17 +319,6 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
-    },
-    {
-      "id": "xVS0ViQWb",
-      "uuid": "2284bb87-5e6f-4427-b8c2-f9065f14b66d",
-      "userId": "KafHJ9_Zz",
-      "bankName": "teste",
-      "accountNumber": "123465798",
-      "routingNumber": "123456789",
-      "isDeleted": false,
-      "createdAt": "2026-01-30T01:25:10.718Z",
-      "modifiedAt": "2026-01-30T01:25:10.718Z"
     }
   ],
   "transactions": [
