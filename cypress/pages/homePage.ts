@@ -1,4 +1,5 @@
 class HomePage {
+
     selectorList() {
         const selectors = {
             transactionList: "[data-test='transaction-list']",

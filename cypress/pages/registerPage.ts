@@ -11,8 +11,8 @@ class RegisterPage {
             registerGrid: ".SignUpForm-form",
             errorMessage: "[data-test='signup-last-name']"
         }
-
         return selectors
+
     }
 
     registeringUserSuccess(
@@ -22,7 +22,7 @@ class RegisterPage {
         password: string,
         confirmpassword: string
     ) {
-    const selectors = this.selectorList()
+        const selectors = this.selectorList()
         cy.get(selectors.firstNameField).type(firstname)
         cy.get(selectors.lastNameField).type(lastname)
         cy.get(selectors.userNameField).type(username)
@@ -38,7 +38,7 @@ class RegisterPage {
         password: string,
         confirmpassword: string
     ) {
-    const selectors = this.selectorList()
+        const selectors = this.selectorList()
         cy.get(selectors.firstNameField).type(firstname)
         cy.get(selectors.lastNameField).type(lastname).clear()
         cy.get(selectors.userNameField).type(username)

@@ -9,8 +9,8 @@ class LoginPage {
             signUpButton: "[data-test='signup']",
             loginGrid: ".SignInForm-paper"
         }
-
         return selectors
+        
     }
 
     accessLoginPage() {
@@ -33,7 +33,6 @@ class LoginPage {
 
     validateLoginScreen() {
         cy.get(this.selectorList().loginGrid)
-
     }
 }
 

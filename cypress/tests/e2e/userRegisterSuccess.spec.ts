@@ -10,11 +10,11 @@ describe('Registro de novo usuário com sucesso', () => {
     loginPage.accessLoginPage()
     loginPage.accessUserRegistration()
     registerPage.registeringUserSuccess(
-        userData.register.firstname,
-        userData.register.lastname,
-        userData.register.username,
-        userData.register.password,
-        userData.register.confirmpassword)
+      userData.register.firstname,
+      userData.register.lastname,
+      userData.register.username,
+      userData.register.password,
+      userData.register.confirmpassword)
     loginPage.validateLoginScreen()
   });
 });
