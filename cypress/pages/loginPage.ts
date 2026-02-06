@@ -10,7 +10,7 @@ class LoginPage {
             loginGrid: ".SignInForm-paper"
         }
         return selectors
-        
+
     }
 
     accessLoginPage() {

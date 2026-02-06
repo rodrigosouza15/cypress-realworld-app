@@ -53,7 +53,6 @@ class RegisterPage {
     errorMessageValidation() {
         cy.get(this.selectorList().errorMessage)
         cy.contains('Last Name is required')
-
     }
 }
 
