@@ -15,5 +15,9 @@
     "username": "rodsccp",
     "password": "123456789",
     "confirmpassword": "123456789"
+  },
+  "transactionData":{
+    "amount": "1000",
+    "note": "test"
   }
 }
