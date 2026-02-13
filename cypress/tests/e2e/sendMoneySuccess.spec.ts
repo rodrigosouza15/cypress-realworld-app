@@ -10,5 +10,6 @@ describe('Enviar dinheiro com saldo suficiente', () => {
     loginPage.accessLoginPage()
     loginPage.loginWithAnyUser(userData.login.userSuccess.username, userData.login.userSuccess.password)
     transactionPage.sendSuccess(userData.transactionData.amount, userData.transactionData.note)
+    transactionPage.messageSuccess()
   });
 });

@@ -16,7 +16,7 @@
     "password": "123456789",
     "confirmpassword": "123456789"
   },
-  "transactionData":{
+  "transactionData": {
     "amount": "1000",
     "note": "test"
   }
