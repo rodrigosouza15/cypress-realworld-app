@@ -3,7 +3,8 @@ class HistoryPage {
     selectorList() {
         const selectors = {
             myHistory: "[data-test='nav-personal-tab']",
-            historyGrid: "[data-test='transaction-list']"
+            historyGrid: "[data-test='transaction-list']",
+            noTransactionsGrid: "[data-test='empty-list-header']"
         }
         return selectors
     }
@@ -14,6 +15,14 @@ class HistoryPage {
 
     checkHistoryGrid() {
         cy.get(this.selectorList().historyGrid)
+    }
+
+    pageNoTransaction() {
+        cy.get(this.selectorList().noTransactionsGrid)
+    }
+
+    messageNoTransaction() {
+        cy.contains('No Transactions')
     }
 }
 

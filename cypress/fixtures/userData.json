@@ -7,6 +7,10 @@
     "userFail": {
       "username": "test",
       "password": "s3cret"
+    },
+    "userTest": {
+      "username": "rodsccp",
+      "password": "123456789"
     }
   },
   "register": {
